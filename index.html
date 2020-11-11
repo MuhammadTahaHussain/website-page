@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Responsive Layout</title>
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- ANIMATE CSS CDN LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	 
+<!-- SECTION NAV START-->	
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+	<div class="container">
+		<a href="#" class="navbar-brand font-weight-bold text-white">DESIGN</a>
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+	        <ul class="navbar-nav ml-auto">
+			 	<li class="nav-item">
+				 	<a href="#home" class="nav-link text-white active"> HOME</a>
+				</li>
+		    	<li class="nav-item">
+				  	<a href="#services" class="nav-link text-white"> SERVICES</a>
+			    </li>
+		        <li class="nav-item">
+				    <a href="#owner" class="nav-link text-white"> OWNER</a>
+		   		</li>
+	    		<li class="nav-item">
+			  		<a href="#our-team" class="nav-link text-white"> OUR TEAM</a>
+			    </li> 
+		        <li class="nav-item">
+			    	<a href="#contact" class="nav-link text-white"> CONTACT US </a>
+			    </li>
+		    </ul>
+    	</div>
+
+	</div>	
+</nav>		
+<!-- SECTION NAV ENDED -->
+
+<!-- SECTION SLIDER START-->
+<section class="slider" id="home">
+	<div class="container-fluid">
+		<div class="carousel slide" id="myslider" data-ride="carousel" data-interval="2000">
+			<div class="carousel-inner">
+
+				<ol class="carousel-indicators">
+					<li data-target="#myslider" data-slide-to="0" class="active"></li>
+					<li data-target="#myslider" data-slide-to="1"></li>
+					<li data-target="#myslider" data-slide-to="2"></li>
+					<li data-target="#myslider" data-slide-to="3"></li>
+		        </ol>
+				
+				<div class="carousel-item active">
+					<img src="banner-1.jpeg" alt="banner-1.jpeg">
+					<div class="carousel-caption">
+					<h2 class="text-warning font-weight-bold">OUR OFFICE Preview</h2>
+					<p class="text-warning font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="banner-2.jpeg" alt="banner-2.jpeg">
+					<div class="carousel-caption">
+					<h2 class="text-white font-weight-bold">OUR OFFICE Preview</h2>
+					<p class="text-white font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="banner-3.jpeg" alt="banner-3.jpeg">
+					<div class="carousel-caption">
+					<h2 class="text-dark font-weight-bold">OUR OFFICE Preview</h2>
+					<p class="text-dark font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="banner-4.jpeg" alt="banner4.jpeg">
+     				<div class="carousel-caption">
+					<h2 class="text-warning font-weight-bold">OUR OFFICE Preview</h2>
+					<p class="text-warning font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</div>
+			
+		    <a href="#myslider" data-slide="prev" class="carousel-control-prev">
+		    	<span class="carousel-control-prev-icon"></span>
+		    </a>
+     	    <a href="#myslider" data-slide="next" class="carousel-control-next">
+		    	<span class="carousel-control-next-icon"></span>
+		    </a>
+		</div>
+	</div>
+</section>
+<!-- SECTION SLIDER END -->
+
+<!-- SECTION SERVICES START -->
+<section class="ourservices text-center" id="services">
+	<div class="container">
+		<h1>SERVICES</h1>
+		<P>Our best and trust Services</P>	
+		
+		<div class="row setting">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto ser1--ani">
+				<div class="d-block m-auto bg-success">
+					<i class="fa fa-shopping-cart fa-3x text-white"></i>	
+				</div>
+				<div class="border">
+					<h2>E-Commerce</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tempora suscipit accusamus officia dignissimos aut impedit expedita consequatur.</p>
+			    </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto ser2--ani ser2-del">
+				<div class="d-block m-auto bg-success">	
+					<i class="fa fa-globe fa-3x text-white"></i>
+				</div>
+				<div class="border">
+					<h2>Responsive Web</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tempora suscipit accusamus officia dignissimos aut impedit expedita consequatur.</p>
+			    </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto ser3--ani ser3-del">
+				<div class="d-block m-auto bg-success">	
+					<i class="fa fa-desktop fa-3x text-white"></i>
+				</div>
+				<div class="border">	
+					<h2>Desktop App</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tempora suscipit accusamus officia dignissimos aut impedit expedita consequatur.</p>
+			    </div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto ser4--ani ser4-del">
+				<div class="d-block m-auto bg-success">	
+					<i class="fa fa-heart fa-3x text-white"></i>
+				</div>	
+				<div class="border">
+					<h2>Heart App</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor tempora suscipit accusamus officia dignissimos aut impedit expedita consequatur.</p>
+			    </div>
+			</div>
+		</div>
+
+	</div>	
+</section>
+<!-- SECTION SERVICES END -->   
+
+<!-- SECTION OWNER START -->
+<section class="owner" id="owner">
+	<div class="container text-center bg-owner">
+		<h1 class="text-white">OWNER</h1>
+		<P class="text-white">This section introduce company Owner</P>
+		
+		<div class="row setting">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto own1--ani">
+				<div class="ownerimg img-fluid">
+					<img src="owner.jpg" alt="owner.jpg">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto own2--ani own-del">
+				<h3 class="ownername text-white">
+					Jammy Anderson
+				</h3>
+				<h5 class="ownerfield text-white">
+				    Full Stack Devloper
+			    </h5>
+				<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus non aut eius sapiente saepe nesciunt dolorem laborum sint consectetur, neque suscipit quidem quis enim in veniam hic minus odio consequatur.</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- SECTION OWNER END -->
+
+<!-- SECTION TEAM STAR -->    	  
+<section class="ourteam" id="our-team">
+	<div class="container text-center">
+		<h1>Out Team</h1>
+		<p>This is Our Experience & Professional Team</p>
+			
+			<div class="row setting">
+				<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto team1--ani">
+					<figure class="figure">
+					    <img src="team-1.jpeg" class="figure-img img-fluid">
+					</figure>
+					<figcaption>
+						<h4>Haery</h4>
+						<p class="figure-caption"> Front End Designer</p>
+					</figcaption>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto team2--ani team2-del">
+					<figure class="figure">
+					    <img src="team-2.jpeg" class="figure-img img-fluid">
+					</figure>
+					<figcaption>
+						<h4>Elizbert</h4>	
+						<p class="figure-caption"> Business Devloper</p>
+					</figcaption>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto team3--ani team3-del">
+					<figure class="figure">
+					    <img src="team-3.jpeg" class="figure-img img-fluid">
+					</figure>
+					<figcaption>
+						<h4>Anderson</h4>
+						<p class="figure-caption"> Senior Devloper</p>
+					</figcaption>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-10 d-block m-auto team4--ani team4-del">
+					<figure class="figure">
+					    <img src="team-4.jpg" class="figure-img img-fluid">
+					</figure>
+					<figcaption>
+						<h4>Floran</h4>
+						<p class="figure-caption"> Senior sale Excutive</p>
+					</figcaption>
+			    </div>
+		    </div>
+
+	</div>
+</section>
+<!-- SECTION TEAM END -->
+
+<!-- SECTION CONTACT START -->
+<section id="contact">
+	<div class="container bg-contact text-center">
+		<h1 class="text-white">CONTACT US</h1>
+		
+		<div class="row setting">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto cntct1--ani">
+			   <h2 class="text-white">Query or Problem</h2>
+			   <p class="text-white"> If you have any problem or issue, please tell us, within 24Hours our team contact with you and solve your issue as your Wishes!!!<br>THANK YOU!!!</p>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-8 col-10 d-block m-auto cntct2--ani">
+				<form method="post" class="mt-5">
+		                <div class="form-group">
+						    <input type="name" name="" id="user" placeholder="Enter User Name" class="form-control">
+					    </div>
+					    <div class="form-group">
+						    <input type="email" name="" id="email" required="true" placeholder="Enter User Email" class="form-control">
+	     				</div>
+				        <div class="form-group">
+				    	    <textarea rows="10" placeholder="Enter Your Comment" class="form-control"></textarea>
+     				    </div>
+	    			    <div class="form-group">
+				    	    <input type="submit" name="" class="btn-success btn-lg mb-2 font-italic font-weight-bold">
+				        </div>
+			    </form>
+			</div>
+		</div>
+
+	</div>
+</section>        
+<!-- SECTION CONTACT END -->	
+
+<!-- SECTION FOOTER START -->
+<section id="footer">
+	<div class="container-fluids text-center text-white footer-pad">
+		
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto foot1--ani">
+				<h2>SERVICE</h2>
+				<p class="setting">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, fuga id perspiciatis similique repellendus architecto asperiores, iusto fugiat</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto foot2--ani">
+				<h2>ABOUT US</h2>
+				<p class="setting">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, fuga id perspiciatis similique repellendus architecto asperiores, iusto fugiat</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto foot3--ani">
+				<h2>OFFERS</h2>
+				<p class="setting">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, fuga id perspiciatis similique repellendus architecto asperiores, iusto fugiat</p>
+			</div> 
+		</div>
+
+	</div>
+</section>
+
+<section id="copyright">
+	<div class="container-fluids bg-dark copyright-pad text-center text-white">
+		<h6>Copyright &copy; 2019, Design by MTH</h6>
+	</div>
+</section>
+<!-- SECTION FOOTER END -->
+
+<!-- waypoints cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous">
+</script>  
+
+<!-- jQuery Animations -->
+ <script>
+	
+// 	var waypoint = new Waypoint({
+//         element: document.getElementById('px-offset-waypoint'),
+//         handler: function(direction) {
+//                 notify('I am 20px from the top of the window')
+//             },
+//   offset: 20 
+// })
+
+
+$(document).ready(function(){
+
+	$('.ser1--ani').waypoint(function(direction){
+	    $('.ser1--ani').addClass('animated fadeInLeft')
+     }, {
+		offset: '50%'
+	});
+
+	$('.ser2--ani').waypoint(function(direction){
+	    $('.ser2--ani').addClass('animated fadeInLeft')
+     }, {
+		offset: '50%'
+	});
+
+	$('.ser3--ani').waypoint(function(direction){
+	    $('.ser3--ani').addClass('animated fadeInRight')
+     }, {
+		offset: '50%'
+	});
+	
+
+	$('.ser4--ani').waypoint(function(direction){
+	    $('.ser4--ani').addClass('animated fadeInRight')
+     }, {
+		offset: '50%'
+	});
+
+	$('.own1--ani').waypoint(function(direction){
+	    $('.own1--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '46%'
+	});
+
+	$('.own2--ani').waypoint(function(direction){
+	    $('.own2--ani').addClass('animated fadeInUp')
+     }, {
+		offset: '64%'
+	});
+
+	$('.team1--ani').waypoint(function(direction){
+	    $('.team1--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '50%'
+	});
+
+	$('.team2--ani').waypoint(function(direction){
+	    $('.team2--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '50%'
+	});
+
+	$('.team3--ani').waypoint(function(direction){
+	    $('.team3--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '50%'
+	});
+
+	$('.team4--ani').waypoint(function(direction){
+	    $('.team4--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '50%'
+	});
+
+	$('.cntct1--ani').waypoint(function(direction){
+	    $('.cntct1--ani').addClass('animated fadeInLeft')
+     }, {
+		offset: '64%'
+	});
+
+	$('.cntct2--ani').waypoint(function(direction){
+	    $('.cntct2--ani').addClass('animated fadeInRight')
+     }, {
+		offset: '50%'
+	});
+
+	$('.foot1--ani').waypoint(function(direction){
+	    $('.foot1--ani').addClass('animated fadeInLeft')
+     }, {
+		offset: '100%'
+	});
+
+	$('.foot2--ani').waypoint(function(direction){
+	    $('.foot2--ani').addClass('animated fadeInDown')
+     }, {
+		offset: '60%'
+	});
+
+	$('.foot3--ani').waypoint(function(direction){
+	    $('.foot3--ani').addClass('animated fadeInRight')
+     }, {
+		offset: '60%'
+	});
+
+
+});
+
+</script>    
+
+</body>
+</html>
